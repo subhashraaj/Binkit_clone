@@ -62,3 +62,26 @@
     display: inline-block;
     overflow: hidden;
 }
+@media screen and (max-width:750px){
+    #nav_bar{
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+    #vertical_line{
+        display: none;
+    }
+
+    #search_input{
+        width: 90vw;
+    }
+    #search_input>input{
+        width: auto;
+    }
+    #hero_section{
+        display: none;
+    }
+    #cards{
+        
+    }
+}

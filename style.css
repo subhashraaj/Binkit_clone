@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#vertical_line {
+    height: 70px;
+    border: 1px solid lightgray;
+}
+
+#search_input {
+    padding: 5px;
+    padding-left: 10px;
+    width: 700px;
+    background-color: #eeeeee;
+    border:1px solid #eeeeee;
+    border-radius: 10px;
+}
+
+#search_input>input {
+    border: transparent;
+    background-color: transparent;
+    width: 95%;
+    height: 60px;
+}
+#cart_button{
+    width:150px;
+    height: 80px;
+    font-size: 20px;
+    font-weight: 700;
+}
+#category_section{
+    margin-left: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x: scroll;
+
+}
+#category_section>img{
+    padding-right:30px ;
+}
+#milk_head>h2{
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 30px;
+}
+.my_card{
+    width: 235px;
+    height: 400px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    
+
+}
+#cards{
+    margin-left: 30px;
+}
+#cards>.my_card{
+    flex-wrap: nowrap;
+    display: inline-block;
+    overflow: hidden;
+}
